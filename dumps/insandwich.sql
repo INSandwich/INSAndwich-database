@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS Users(
   FirstName CHAR(100) NOT NULL,
   LastName CHAR(100) NOT NULL,
   Email CHAR(254) NOT NULL,
-  Login CHAR(50) NOT NULL,
+  Login CHAR(50) UNIQUE NOT NULL,
   Password CHAR(254) NOT NULL,
   Adresse CHAR(300) NOT NULL,
   Tokens INTEGER default 0,
