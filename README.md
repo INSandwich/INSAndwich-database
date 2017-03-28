@@ -11,6 +11,9 @@ Links:
 Todo List:
   - Add an sql script to insert dummy data in the database
 
+Considered things to do (to discuss): 
+  - Add UNIQUE constraint to the names of roles and categories
+
 ## How to use
   - Install sqlite3 (see link above)
   - run the following commands:
